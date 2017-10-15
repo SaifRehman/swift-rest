@@ -47,7 +47,7 @@ class Controller {
   }
 public func hello(request: RouterRequest, response: RouterResponse, next: @escaping () -> Void) throws {
 
-  response.status(.OK).send("hello")
+  response.status(.OK).send("h")
 
 }
   /**
