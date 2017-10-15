@@ -1,0 +1,9 @@
+{
+  "MyCloudantDB": {
+    "searchPatterns": [
+      "cloudfoundry:Cloudant NoSQL DB-35",
+      "env:kube-cloudant-credentials",
+      "file:config/my-cloudant-credentials.json"
+    ]
+  }
+}

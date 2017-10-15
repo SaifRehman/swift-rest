@@ -1,0 +1,7 @@
+---
+applications:
+ - name: get-swift
+   random-route: true
+   memory: 256M
+   command: kitura-helloworld
+   buildpack: swift_buildpack
