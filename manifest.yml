@@ -1,6 +1,6 @@
 ---
 applications:
- - name: get-swift
+ - name: get-swift-hello
    random-route: true
    memory: 256M
    command: kitura-helloworld
